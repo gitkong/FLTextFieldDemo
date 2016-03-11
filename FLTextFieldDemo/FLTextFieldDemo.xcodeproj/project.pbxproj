@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		3FF164F61C92ADDC00506C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF164F51C92ADDC00506C1E /* main.m */; };
-		3FF164F91C92ADDC00506C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF164F81C92ADDC00506C1E /* AppDelegate.m */; };
-		3FF164FC1C92ADDC00506C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF164FB1C92ADDC00506C1E /* ViewController.m */; };
-		3FF164FF1C92ADDC00506C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF164FD1C92ADDC00506C1E /* Main.storyboard */; };
+		3FF164F91C92ADDC00506C1E /* FLTextFieldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF164F81C92ADDC00506C1E /* FLTextFieldAppDelegate.m */; };
+		3FF164FC1C92ADDC00506C1E /* FLTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF164FB1C92ADDC00506C1E /* FLTextFieldViewController.m */; };
 		3FF165011C92ADDC00506C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF165001C92ADDC00506C1E /* Assets.xcassets */; };
-		3FF165041C92ADDC00506C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF165021C92ADDC00506C1E /* LaunchScreen.storyboard */; };
+		3FF1650D1C92AE5D00506C1E /* FL_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1650C1C92AE5D00506C1E /* FL_TextField.m */; };
+		DC6F62494D00BAAFDF858A8B /* libPods-FLTextFieldDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5D5B2E3457B32E0DAAB9FE /* libPods-FLTextFieldDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A5D5B2E3457B32E0DAAB9FE /* libPods-FLTextFieldDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLTextFieldDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF164F11C92ADDC00506C1E /* FLTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF164F51C92ADDC00506C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FF164F71C92ADDC00506C1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3FF164F81C92ADDC00506C1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FF164FA1C92ADDC00506C1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FF164FB1C92ADDC00506C1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FF164FE1C92ADDC00506C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF164F71C92ADDC00506C1E /* FLTextFieldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLTextFieldAppDelegate.h; sourceTree = "<group>"; };
+		3FF164F81C92ADDC00506C1E /* FLTextFieldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTextFieldAppDelegate.m; sourceTree = "<group>"; };
+		3FF164FA1C92ADDC00506C1E /* FLTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLTextFieldViewController.h; sourceTree = "<group>"; };
+		3FF164FB1C92ADDC00506C1E /* FLTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTextFieldViewController.m; sourceTree = "<group>"; };
 		3FF165001C92ADDC00506C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FF165031C92ADDC00506C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF165051C92ADDC00506C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF1650B1C92AE5D00506C1E /* FL_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FL_TextField.h; sourceTree = "<group>"; };
+		3FF1650C1C92AE5D00506C1E /* FL_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FL_TextField.m; sourceTree = "<group>"; };
+		B9436A1E5883BD592B2E3C6F /* Pods-FLTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLTextFieldDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLTextFieldDemo/Pods-FLTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BFA7C2EAD8970DDA8F99920E /* Pods-FLTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLTextFieldDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLTextFieldDemo/Pods-FLTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +36,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F62494D00BAAFDF858A8B /* libPods-FLTextFieldDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C22CA643E52BE11A1075A1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7C2EAD8970DDA8F99920E /* Pods-FLTextFieldDemo.debug.xcconfig */,
+				B9436A1E5883BD592B2E3C6F /* Pods-FLTextFieldDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FF164E81C92ADDC00506C1E = {
 			isa = PBXGroup;
 			children = (
 				3FF164F31C92ADDC00506C1E /* FLTextFieldDemo */,
 				3FF164F21C92ADDC00506C1E /* Products */,
+				1C22CA643E52BE11A1075A1E /* Pods */,
+				40CE985BC638D4A52148E332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +73,11 @@
 		3FF164F31C92ADDC00506C1E /* FLTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3FF164F71C92ADDC00506C1E /* AppDelegate.h */,
-				3FF164F81C92ADDC00506C1E /* AppDelegate.m */,
-				3FF164FA1C92ADDC00506C1E /* ViewController.h */,
-				3FF164FB1C92ADDC00506C1E /* ViewController.m */,
-				3FF164FD1C92ADDC00506C1E /* Main.storyboard */,
-				3FF165001C92ADDC00506C1E /* Assets.xcassets */,
-				3FF165021C92ADDC00506C1E /* LaunchScreen.storyboard */,
-				3FF165051C92ADDC00506C1E /* Info.plist */,
+				3FF1650E1C92AE6400506C1E /* FL_TextField */,
+				3FF164F71C92ADDC00506C1E /* FLTextFieldAppDelegate.h */,
+				3FF164F81C92ADDC00506C1E /* FLTextFieldAppDelegate.m */,
+				3FF164FA1C92ADDC00506C1E /* FLTextFieldViewController.h */,
+				3FF164FB1C92ADDC00506C1E /* FLTextFieldViewController.m */,
 				3FF164F41C92ADDC00506C1E /* Supporting Files */,
 			);
 			path = FLTextFieldDemo;
@@ -74,9 +86,28 @@
 		3FF164F41C92ADDC00506C1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FF165001C92ADDC00506C1E /* Assets.xcassets */,
+				3FF165051C92ADDC00506C1E /* Info.plist */,
 				3FF164F51C92ADDC00506C1E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FF1650E1C92AE6400506C1E /* FL_TextField */ = {
+			isa = PBXGroup;
+			children = (
+				3FF1650B1C92AE5D00506C1E /* FL_TextField.h */,
+				3FF1650C1C92AE5D00506C1E /* FL_TextField.m */,
+			);
+			name = FL_TextField;
+			sourceTree = "<group>";
+		};
+		40CE985BC638D4A52148E332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A5D5B2E3457B32E0DAAB9FE /* libPods-FLTextFieldDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FF165081C92ADDC00506C1E /* Build configuration list for PBXNativeTarget "FLTextFieldDemo" */;
 			buildPhases = (
+				F7A0EDEEB528FCACE644B660 /* Check Pods Manifest.lock */,
 				3FF164ED1C92ADDC00506C1E /* Sources */,
 				3FF164EE1C92ADDC00506C1E /* Frameworks */,
 				3FF164EF1C92ADDC00506C1E /* Resources */,
+				975AA5B11B58A8646E858637 /* Embed Pods Frameworks */,
+				24361F6F59EBB5E87274155D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,45 +170,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF165041C92ADDC00506C1E /* LaunchScreen.storyboard in Resources */,
 				3FF165011C92ADDC00506C1E /* Assets.xcassets in Resources */,
-				3FF164FF1C92ADDC00506C1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24361F6F59EBB5E87274155D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLTextFieldDemo/Pods-FLTextFieldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975AA5B11B58A8646E858637 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLTextFieldDemo/Pods-FLTextFieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A0EDEEB528FCACE644B660 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FF164ED1C92ADDC00506C1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF164FC1C92ADDC00506C1E /* ViewController.m in Sources */,
-				3FF164F91C92ADDC00506C1E /* AppDelegate.m in Sources */,
+				3FF164FC1C92ADDC00506C1E /* FLTextFieldViewController.m in Sources */,
+				3FF164F91C92ADDC00506C1E /* FLTextFieldAppDelegate.m in Sources */,
 				3FF164F61C92ADDC00506C1E /* main.m in Sources */,
+				3FF1650D1C92AE5D00506C1E /* FL_TextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3FF164FD1C92ADDC00506C1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FF164FE1C92ADDC00506C1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FF165021C92ADDC00506C1E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FF165031C92ADDC00506C1E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3FF165061C92ADDC00506C1E /* Debug */ = {
@@ -259,6 +321,7 @@
 		};
 		3FF165091C92ADDC00506C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA7C2EAD8970DDA8F99920E /* Pods-FLTextFieldDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FLTextFieldDemo/Info.plist;
@@ -270,6 +333,7 @@
 		};
 		3FF1650A1C92ADDC00506C1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9436A1E5883BD592B2E3C6F /* Pods-FLTextFieldDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FLTextFieldDemo/Info.plist;
@@ -298,6 +362,7 @@
 				3FF1650A1C92ADDC00506C1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

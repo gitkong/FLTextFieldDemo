@@ -7,7 +7,7 @@
 //
 
 #import "FLTextFieldAppDelegate.h"
-
+#import "FLTextFieldViewController.h"
 @interface FLTextFieldAppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    FLTextFieldViewController *vc = [[FLTextFieldViewController alloc] init];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

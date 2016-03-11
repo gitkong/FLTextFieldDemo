@@ -1,6 +1,6 @@
 //
 //  FL_TextField.h
-//  TextFiledBirthdayDemo
+//  FLTextFieldDemo
 //
 //  Created by 孔凡列 on 16/3/11.
 //  Copyright © 2016年 czebd. All rights reserved.
@@ -20,15 +20,23 @@ typedef enum{
 }FL_TextFieldType;
 
 typedef void(^TipBlock)(NSString *tipStr);
+typedef void(^ResultBlock)(NSString *result);
 
 @interface FL_TextField : UITextField
 
 @property (nonatomic,assign)FL_TextFieldType fl_textFieldType;// textField的类型
 
-@property (nonatomic,copy)TipBlock tipBlock;//提示回调
+@property (nonatomic,copy)TipBlock tipBlock;//提示回调,外界可以弹窗提示
+@property (nonatomic,copy)ResultBlock resultBlock;//结果回调
 
-+ (instancetype)fl_textFieldWithTextFieldType:(FL_TextFieldType)fl_textFieldType tipBlock:(TipBlock)tipBlock;
+@property (nonatomic,assign)long long timeStamp;// 时间戳
 
-- (instancetype)initWithTextFieldType:(FL_TextFieldType)fl_textFieldType tipBlock:(TipBlock)tipBlock;
++ (instancetype)fl_textFieldWithTextFieldType:(FL_TextFieldType)fl_textFieldType
+                                     tipBlock:(TipBlock)tipBlock
+                                  resultBlock:(ResultBlock)resultBlock;
+
+- (instancetype)initWithTextFieldType:(FL_TextFieldType)fl_textFieldType
+                             tipBlock:(TipBlock)tipBlock
+                          resultBlock:(ResultBlock)resultBlock;
 
 @end
